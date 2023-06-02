@@ -74,7 +74,7 @@ header img {
 }
 
 .active {
-  color: #c21e6b;
+  color: #c21e6b !inportant;
 }
 
 .primaryNav a:hover {
