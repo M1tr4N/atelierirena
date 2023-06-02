@@ -1,0 +1,117 @@
+/* main color theme
+    background: #fbf9f7
+    borders: #EAE0D5
+    headings color: #c21e6b
+    accent color: #203368
+    2nd accent color: #336820
+*/
+
+/* default browser settings reset */
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-size: 62.5%;
+ /* border: 1px red solid; */
+}
+
+h1 {
+ font-size: 3.6rem;
+}
+
+p {
+ font-size: 1.5rem;
+}
+
+body {
+ background-color: #fbf9f7;
+ font-family: 'Open Sans', sans-serif;
+ width: 90%;
+ margin: 0 auto;
+}
+
+header {
+ /* border-top: 0.5rem solid #e5d0cf; */
+ border-top: 0.5rem solid #EAE0D5;
+ text-align: center;
+}
+
+nav {
+ background-color: #fbf9f7;
+ position: sticky;
+ top: 0rem;
+ z-index: 1;
+ text-align: center;
+}
+
+nav ul {
+ list-style-type: none;
+}
+
+nav li {
+ display: inline-block;
+ padding: 0.5rem 1rem;
+}
+
+nav a {
+ color: #373737;
+ text-decoration: none;
+}
+
+nav ul li a:hover {
+ color: #9E8786;
+}
+
+/* call to action section */
+
+#call-to-action {
+ background-image: url("http://atelierirena.com/wp-content/uploads/2020/06/cta.jpg");
+ background-size: cover;
+ height: 26rem;
+}
+
+#call-to-action article {
+ text-align: center;
+ background-color: white;
+ width: 80%;
+ height: 10rem;
+ margin: 0 auto;
+ position: relative;
+ top: 8rem;
+}
+
+#call-to-action h1 {
+ position: relative;
+ top: 0.75rem;
+ left: 0.75rem;
+ border: 1px #e5d0cf solid;
+ width: 95%;
+ height: 85%;
+ padding-top: 2rem;
+}
+
+#btn_call-to-action {
+ position: relative;
+ bottom: 2.5em;
+ text-decoration: none;
+ color: white;
+ background-color: #373737;
+ padding: 0.5rem 1rem;
+ border-radius: 2rem;
+ text-transform: uppercase;
+
+}
+
+#btn_call-to-action:hover {
+ color: #373737;
+ background-color: #e5d0cf;
+}
+
+.btn_transition {
+ transition-duration: 0.3s;
+ transition-timing-function: ease;
+ transition-delay: 0s;
+ transition-property: all;
+}
+
+/* end of call to action section */
